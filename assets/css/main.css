@@ -48,6 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1551,7 +1552,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #cbe8cb;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2111,6 +2112,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+
 		}
 
 		ul.alt {
@@ -2224,6 +2226,7 @@
 				margin: 1.5em 0 0 0;
 				padding-left: 2.25em;
 				position: relative;
+                color: #616161;
 			}
 
 				ul.labeled-icons li:first-child {
@@ -2235,7 +2238,7 @@
 				}
 
 				ul.labeled-icons li h3 {
-					color: #b2b2b2;
+					color: #737373;
 					left: 0;
 					position: absolute;
 					text-align: center;
@@ -2573,6 +2576,7 @@
 		    }
             #header .navergation  a:hover{
                 color: #f2f8d3 !important;
+                font-weight: 900;
             }
             #emptyHref:hover {
                 cursor: default !important;
