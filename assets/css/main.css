@@ -2549,23 +2549,29 @@
 		padding: 0;
 	}
 		#header .navergation {
-			/*margin-left: 10%;*/
-            padding-right: 20px;
-			width: 50%;
+			margin-left: 40%;
+			/*float: right;*/
+            /*padding-right: 5%;*/
+            width: 50%;
 			text-align: center;
 			list-style: none;
             text-decoration: none;
             /*border-left: 1px solid rgba(255,255,255,0.25) ;*/
             display:inline-block;
-		}
+		    }
 		    #header .navergation li:hover{
                 background-color: #53573e;
 
 		    }
 		    #header .navergation  a {
-                font:  700 20px/30px "华文细黑";
+                font:  700 20px/40px "华文细黑";
 		    }
-
+            #header .navergation  a:hover{
+                color: #000;
+            }
+            #emptyHref:hover {
+                cursor: default !important;
+            }
 
 		#footer copyright li {
 			border-left: solid 1px rgba(255, 255, 255, 0.25);

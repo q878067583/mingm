@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -5,6 +11,16 @@
 */
 
 (function($) {
+
+    // var sendMessage = document.getElementById("Message");
+    // sendMessage.onclick = function () {
+    //     var sorry = document.getElementById("sorry");
+    //     sorry.style.collor = "red";
+    //
+    // }
+
+
+
 
 	var settings = {
 
@@ -131,5 +147,9 @@
 				});
 
 	});
+
+
+
+
 
 })(jQuery);
