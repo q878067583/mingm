@@ -2485,15 +2485,18 @@
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.8);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25% ;
+
 	}
+
+
 
 		#header > * {
 			-moz-flex-shrink: 0;
@@ -2549,10 +2552,11 @@
 		padding: 0;
 	}
 		#header .navergation {
-			margin-left: 40%;
+			margin-left: -50px;
 			/*float: right;*/
             /*padding-right: 5%;*/
-            width: 50%;
+            margin-bottom: -50px;
+            width: 105px;
 			text-align: center;
 			list-style: none;
             text-decoration: none;
@@ -2564,14 +2568,22 @@
 
 		    }
 		    #header .navergation  a {
-                font:  700 20px/40px "华文细黑";
+                font:  500 20px/50px "华文细黑";
+                color: #dfdfdf;
 		    }
             #header .navergation  a:hover{
-                color: #000;
+                color: #f2f8d3 !important;
             }
             #emptyHref:hover {
                 cursor: default !important;
             }
+                /*#header > .navergation li{*/
+                    /*display: inline-block;*/
+                    /*!*float: left;*!*/
+                    /*width: 50%;*/
+                    /*border-bottom:0px solid ;*/
+                    /*text-decoration: none;*/
+                /*}*/
 
 		#footer copyright li {
 			border-left: solid 1px rgba(255, 255, 255, 0.25);
