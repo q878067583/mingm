@@ -1745,11 +1745,6 @@
 	header.major h2 {
 		font-size: 2em;
 	}
-	#music:hover {
-        margin-right: 238px;
-
-    }
-
 
 /* Form */
 
@@ -2572,11 +2567,11 @@
             display:inline-block;
 		    }
 		    #header .navergation li:hover{
-                background-color: #7ca63d;
+                background-color: #53573e;
 
 		    }
 		    #header .navergation  a {
-                font:  600 20px/50px "华文细黑";
+                font:  500 20px/50px "华文细黑";
                 color: #dfdfdf;
 		    }
             #header .navergation  a:hover{
