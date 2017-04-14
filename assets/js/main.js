@@ -21,7 +21,6 @@
 
 
 
-
 	var settings = {
 
 		// Parallax background effect?
