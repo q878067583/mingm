@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <tour>
+    <panorama>
+      <input>
+        <patch/>
+        <type>equirectangular</type>
+        <filename>qjt03_equi.tif</filename>
+        <hfov>360</hfov>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>43</start>
+          <min>-180</min>
+          <max>180</max>
+        </pan>
+        <tilt>
+          <start>-6.8</start>
+          <min>-113</min>
+          <max>133</max>
+        </tilt>
+        <fov>
+          <start>95</start>
+          <minunit>degrees</minunit>
+          <min>5</min>
+          <max>120</max>
+        </fov>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata/>
+      <hotspots/>
+      <sounds/>
+      <id>node1</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>qjt02.jpg</filename>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+      </viewingparameter>
+      <userdata>
+        <copyright>Copyright 2009</copyright>
+        <datetime>2012:07:19 06:04:31</datetime>
+      </userdata>
+      <hotspots/>
+      <output/>
+      <sounds/>
+      <id>node2</id>
+    </panorama>
+  </tour>
+  <panorama>
+    <userdata/>
+    <output/>
+    <input>
+      <patch/>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+    </viewingparameter>
+    <hotspots/>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>

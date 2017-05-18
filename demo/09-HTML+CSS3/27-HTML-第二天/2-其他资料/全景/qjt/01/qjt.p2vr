@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>C:/Users/wcs/Desktop/qjt.jpg</filename>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>43</start>
+        <min>-180</min>
+        <max>180</max>
+      </pan>
+      <tilt>
+        <start>-6.8</start>
+        <min>-113</min>
+        <max>133</max>
+      </tilt>
+      <fov>
+        <start>95</start>
+        <minunit>degrees</minunit>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata/>
+    <hotspots/>
+    <output/>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
