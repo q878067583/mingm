@@ -74,7 +74,7 @@
 
             height:100%;
             background-color: #ffffff;
-            width: 50%;
+            width: 0%;
         }
 
         .time{
@@ -141,6 +141,10 @@
         var totaltime=document.querySelector('.total-time');
 
         var extend=document.querySelector('.extend');
+
+		var progress=document.querySelector('.progress');
+		var controls =document.querySelector('.controls');
+		var player=document.querySelector('.player');
 
 
         var Ttime=0;
@@ -214,6 +218,30 @@
             video.webkitRequestFullScreen();
         }
 
+        //  点击定位视频的进度
+		progress.onclick = function (event) {
+			event = event || window.event;  // 鼠标的坐标
+			//  获取进度条的左上角的坐标
+			var pagex = event.pageX || event.clientX + document.documentElement.scrollLeft;
+			//获取进度条的宽度
+			var value= pagex-player.offsetLeft-controls.offsetLeft-progress.offsetLeft ;
+			currProgress.style.width = value +"px";
+			// 定位视频的进度
+			video.currentTime = video.duration* value/progress.offsetWidth  ;
+
+//        	console.log(player.offsetLeft);
+//        	console.log(controls.offsetLeft);
+//          console.log(progress.offsetLeft);
+//        	console.log(currProgress.offsetLeft);
+
+//            console.log(progress.offsetWidth);
+			console.log("视频的长度"+video.duration);
+			console.log("当前鼠标坐标："+pagex);
+			console.log("当前鼠标坐标："+event.clientX);
+			console.log("进度条的宽度："+currProgress.clientWidth);
+			console.log("进度条的左上角坐标："+currProgress.getBoundingClientRect().left);
+			console.log("被卷去的头部"+document.documentElement.scrollLeft);
+		}
 
     </script>
 </body>
