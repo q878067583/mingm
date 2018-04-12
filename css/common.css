@@ -160,11 +160,11 @@ img {
     vertical-align: top;
     width: 8px;
     height: 8px;
-    background-color: #fff;
+    background-color: #b2b2b2;
     margin: 0 5px;
     border-radius: 100%;
 }
-.slider-wrap .hd li .on{
+.banner .slider-wrap .hd li.on{
     background-color: #2385c4;
 }
 
