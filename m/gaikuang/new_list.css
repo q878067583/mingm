@@ -19,8 +19,8 @@
 /*底部版权*/
 .footer { margin-top:30px;}
 .footer .wrapper{ width:1000px; margin:0 auto; overflow:hidden; line-height:20px;position:relative; height:180px; }
-.footer .fr{ text-align:right;}
-.footer .fl img{width:100px;}
+/*.footer .fr{ text-align:right;}*/
+.footer .fl img{width:100px; float:left}
 .qr_code{ width:400px; position: absolute; top: 30px; right: 0px; text-align: center; background: #fff;  }
 .qr_code li{ float:left;margin: 5px; }
 .qr_code img { margin-bottom:3px; }
