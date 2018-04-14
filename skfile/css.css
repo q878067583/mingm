@@ -68,8 +68,8 @@
 .newcon1 dl{margin-bottom:38px;}
 .newcon1 dd{padding-left:68px;line-height:18px;}
 .newcon1 dd p{padding-top:5px;}
-.newcon2{float:right;width:207px;overflow:hidden;}
-.newcon2 img {width: 100%;}
+.newcon2{float:right;width:195px;overflow:hidden;}
+.newcon2 img {width: 100%;margin-bottom:3px;}
 
 .jknew{padding-top:20px;}
 .jknew dl{float:left;width:232px;border:1px #ededed solid;margin-right:15px;}
