@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 a{text-decoration:none;color:#888}a:hover,a:active {color:#f00;text-decoration:none;}
 .gray,.gray a,a.gray{color:#333;}
 .blue,.blue a,a.blue{color:#00479d;}
-.f14{font-size:14px;}
+.f14{font-size:17px;}
 
 /* = 清除浮动元素= */
 .clr {clear:both;}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
@@ -18,7 +18,7 @@ a{text-decoration:none;color:#888}a:hover,a:active {color:#f00;text-decoration:n
 * html{height: 1%;}
 .clearfix{display: block;}
 /* = Auxiliary Styles (辅助样式) = */
-.hr_a,.hr_b{font-size:1px;line-height:1px;clear:both;overflow:hidden}.hr_a{height:30px}.hr_b{height:60px}
+.hr_a,.hr_b{font-size:1px;line-height:1px;clear:both;overflow:hidden}.hr_a{height:10px}.hr_b{height:10px}
 body {font:12px/22px Microsoft Yahei;color:#888;}
 /* nav导航及列表/切换/滚动辅助样式 */
 .hor li{white-space:nowrap;display:inline;float:left;overflow:hidden}
@@ -86,10 +86,9 @@ body {font:12px/22px Microsoft Yahei;color:#888;}
     background-color: #b2b2b2;
     margin: 0 5px;
     border-radius: 100%;
-
 }
 .banner .slider-wrap .hd li.on{
-    background-color: #7fc472;
+    background-color: #65c465;
 }
 
 .slider-wrap .prev,.slider-wrap .next{ z-index:1; display:block; width:55px; height:55px; position:relative; margin:-20% 0 0 3%; float:left;  background:url(./arrow.png) 0 0 no-repeat; filter:alpha(opacity=40);opacity:0.4  }
