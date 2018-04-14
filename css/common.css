@@ -131,7 +131,7 @@ img {
 /*}*/
 .slider-wrap{
     position: relative;
-    height:501px;
+    height:450px;
     overflow: hidden;
 
 }
@@ -144,7 +144,7 @@ img {
 .img-wrap a{
     width: 100%;
     display: block;
-    height: 501px;
+    height: 450px;
     overflow:hidden;
     background-position: center;
     background-size: cover;
@@ -171,7 +171,7 @@ img {
 
 
 
-.slider-wrap .prev,.slider-wrap .next{ z-index:1; display:block; width:55px; height:55px; position:relative; margin:-20% 0 0 3%; float:left;  background:url(../images/arrow.png) 0 0 no-repeat; filter:alpha(opacity=40);opacity:0.4  }
+.slider-wrap .prev,.slider-wrap .next{ z-index:1; display:block; width:55px; height:55px; position:relative; margin:-250px 0 0 3%; float:left;  background:url(../images/arrow.png) 0 0 no-repeat; filter:alpha(opacity=40);opacity:0.4  }
 .slider-wrap .next{  background-position:right 0; float:right; margin-right:3%  }
 .slider-wrap .prev:hover,.slider-wrap .next:hover{ filter:alpha(opacity=80);opacity:0.8 }
 
