@@ -39,20 +39,25 @@
 #content .allday li{
     float: left;
     box-sizing:border-box;
-    margin-right:15px;
+    margin-right:22px;
 }
 #content .allday li:nth-child(3){
-    margin-right:1px;
+    margin-right:0px;
 }
 
 #content .allday img{
-    width: 213px;
+    /*width: 213px;*/
 }
 
 #content .allday li:hover{
-    margin-right:11px;
+    margin-right:18px;
     border: 2px solid #d2c858;
     box-shadow:  2px -2px 2px #e0d55e;
+}
+#content .allday li:nth-child(3):hover{
+    left: 100px;
+    margin-right:0px;
+
 }
 
 
