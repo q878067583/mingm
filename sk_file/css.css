@@ -1,0 +1,110 @@
+@charset "gb2312";
+.hmpic li{margin-bottom:10px;}
+.hmpic li:last-child{margin-bottom:0;}
+.message dt{float:left;width:65px;height:86px;color:#fff;text-align:center;background:#2975d3;color:#fff;font-size:20px;font-weight:bold;padding:30px;line-height:35px;}
+.message dd{float:right;width:556px;border:1px #e5e5e5 solid;}
+.message li{line-height:29px;padding:0 5px;}
+.message li:hover{background:#f2f2f2;}
+.submenu h4{background:#2975d3;color::#fff;height:78px;text-align:center;color:#fff;padding-top:22px;margin-bottom:5px;}
+.submenu b{font-size:24px;display:block;}
+.submenu span{ font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;line-height:40px;}
+.submenu li{height:60px;line-height:60px;background:#f7faff;color:#333}
+.submenu li a{color:#333;display:block;padding-left:20%}
+.submenu li.selected{background:#edf2f8;}
+.submenu li img{ vertical-align:middle;padding:0 23px;
+    max-width: 30px;max-height:30px;}
+.submenu li b{font-size:16px;display:inline-block;}
+.submenu li a:hover{background:#dfe9f3;}
+/*重点科室*/
+/*.submenu  li {position:relative}*/
+/*.submenu li img{w50 }*/
+
+
+
+
+/**/
+
+
+/*365日无休假*/
+#content .allday {
+    width:685px;
+    /*height: 300px;*/
+    float:right;
+
+}
+#content .allday ul{
+    margin-top:20px;
+    position:relative;
+}
+#content .allday li{
+    float: left;
+    box-sizing:border-box;
+    margin-right:15px;
+}
+
+#content .allday li:hover{
+
+    margin-right:11px;
+    border: 2px solid #d2c858;
+    box-shadow:  2px -5px 2px #e0d55e;
+}
+
+
+.newbt{border-bottom:1px #dedede solid;height:35px;margin-bottom:20px;}
+.newbt h4{display:inline-block;height:34px;border-bottom:2px #3c71b3 solid;font-size:20px;}
+.newbt span{font-size:14px;padding-left:10px;}
+.newcon1{float:left;width:462px;}
+.newcon1 dl{margin-bottom:38px;}
+.newcon1 dd{padding-left:68px;line-height:18px;}
+.newcon1 dd p{padding-top:5px;}
+.newcon2{float:right;width:195px;overflow:hidden;}
+.jknew{padding-top:20px;}
+.jknew dl{float:left;width:232px;border:1px #ededed solid;margin-right:15px;}
+.jknew dl.last{margin-right:0;}
+.jknew dd p{padding:10px 20px;text-align:center;}
+.jknew .btn{height:40px;background:#f3f3f3;line-height:40px;text-align:center;font-size:14px;}
+.jknew .btn a{display:block;}
+.jknew .btn a:hover{background:#389cff;color:#fff;}
+
+
+
+/*-----------------------------------------yyjs-----------------------------------------*/
+.jsbt h4{font-size:24px;}
+.jsbt p{background:url(../images/line.gif) repeat-x center left;margin-top:10px;}
+.jsbt p span{background:#fff;display:inline-block;padding:0 10px;font-size:20px;color:#898989;}
+.jsfont{line-height:24px;text-indent:2em;}
+.jspic li{float:left;margin-right:20px;}
+
+
+
+/*-----------------------------------------zjtd-----------------------------------------*/
+.zjtd li{float:left;width:200px;font-size:16px;text-align:center;line-height:45px;margin-bottom:10px; margin-left:20px;}
+.zjtd li.last{float:right;}
+
+
+
+
+/*-----------------------------------------jkzs-----------------------------------------*/
+.jksh{float:left;width:370px;border:1px #1369c0 solid;padding-bottom:15px;}
+.jksh h4{height:55px;padding-left:20px;line-height:55px;background:#1369c0;color:#fff;font-size:16px;}
+.jksh li{float:left;width:158px;margin:15px 0 0 20px; text-align:center;}
+.wzlist{float:right;width:578px;}
+.wzlist dl{border-bottom:1px #e8e8e8 dashed;padding-bottom:21px;margin-bottom:21px;}
+.wzlist dd{padding-left:136px;}
+.wzlist dd p{padding-top:5px;}
+
+
+/*-----------------------------------------list-----------------------------------------*/
+.list li{height:43px;border-bottom:1px #e8e8e8 dashed;line-height:43px;font-size:14px;}
+.list li a{display:block;padding:0 10px;}
+.list li a:hover{background:#ededed;}
+.pager{padding:15px 0;}
+.pager span{display:inline-block;margin-right:20px;line-height:26px;}
+.pager a{display:inline-block;border:1px #ccc solid;padding:0 5px;}
+
+
+
+/*-----------------------------------------article-----------------------------------------*/
+h1{font-size:18px;}
+.fxnr{border-bottom:1px #ccc dashed;padding:10px 0;margin-bottom:20px;}
+.wznr p{text-indent:2em;color:#707070; line-height:40px;}
