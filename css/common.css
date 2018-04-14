@@ -51,6 +51,7 @@ img {
 	overflow: hidden;
 }
 
+
 /* 头部 */
 .header-wrap{
 	background-color: #fff;
@@ -66,7 +67,7 @@ img {
 }
 .header-container h1 a img{
 	display: block;
-	width: 100%;
+	width: 73%;
 }
 .header-right{
 	float: right;
