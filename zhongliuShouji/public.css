@@ -361,6 +361,9 @@ html,body{
 	float:right;
 	margin-top:6px;
 	}
+
+
+
 .footer{
 	overflow:hidden;
 	position:fixed;
@@ -374,11 +377,20 @@ html,body{
 	overflow:hidden;
 	float:left;
 	}
-.footer a img{
-	width:100%;
-	height:auto;
-	}
+.footer a img {
+    width: 100%;
+    height: auto;
+}
+
+
 .footer-btm {
     width: 80%;
     margin: 10px auto 19%;
+    text-align: center;
+}
+@media screen and (min-width: 640px) {
+    .footer {
+        left: 50%;
+        margin-left:-320px;
+    }
 }
