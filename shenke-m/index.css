@@ -1,0 +1,46 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*¸Î²¡¼ì²é*/
+.rd{ width:100%; font-family:'Î¢ÈíÑÅºÚ'; }
+.redian_tit{ background:#E2E2E2 url(../images/titi.png) left center no-repeat; width:100%; height:24px; }
+.redian_tit h2{font-size:15px; line-height:24px; padding-left:15px; display:inline;color:#000;font-weight:normal; text-align:left;}
+.redian_tit h2 span{ font-size:12px;  float:right; padding-right:8px; display:inline;font-family:'ËÎÌå'; font-weight:normal;}
+.redian_tit h2 span a{ color:#FFF;}
+.redian_tit h2 span a:hover{ text-decoration:underline; color:#FFF;}
+.cont-list { width:100%; height:auto; margin:2px; }
+.cont-list ul{width:99%; height:auto;}
+.cont-list li{width:33%; line-height:18px; float: right; display:inline; font-size:16px;}
+.cont-list li a{ width:95%; line-height:32px; height:32px; text-align:center; border-radius:3px; background:#9a5b25;float: left; display:inline; margin:2px auto; color:#fff; }
+.cont-list li a:hover{ color:#fff; text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

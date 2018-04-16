@@ -1,0 +1,701 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0px;
+}
+a { /*color:#000;*/
+	text-decoration: none;
+}
+a:hover {
+	color: #F00;
+	text-decoration: underline;
+}
+.clear {
+	clear: both;
+}
+.container {
+	width: 99%;
+	border: 1px solid #BBBBBB;
+	/*text-align:center;*/ margin: 0 auto;
+	overflow: hidden;
+}
+.top {
+	background: #9a5d26 none repeat scroll 0 0;
+    height: 50px;
+    margin-top: 40px;
+    width: 100%;
+}
+.intop {
+	width: 320px;
+	height: 50px;
+	margin: 0 auto;
+}
+.wj_nav {
+	width: 100%;
+	height: auto;
+	margin: 0px 2px 0;
+	font-family: '微软雅黑';
+}
+.wj_nav ul {
+	width: 99%;
+	height: auto;
+}
+.wj_nav li {
+	width: 24.8%;
+	line-height: 35px;
+	float: left;
+	display: inline;
+	font-size: 15px;
+}
+.wj_nav li a {
+	width: 100%;
+	line-height: 35px;
+	height: 35px;
+	text-align: center;
+	border: 1px solid #fff;
+	background: #9a5d26;
+	float: left;
+	display: inline;
+	margin: 2px auto;
+	color: #fff;
+}
+.wj_nav li a:hover {
+	color: #fff;
+}
+.banner {
+	width: 100%;
+	height:auto;
+	overflow:hidden;
+	margin-bottom: 3px;
+}
+.inbanenr {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin: 0 auto;
+}
+.inbanenr img{
+	width:100%;
+	
+}
+/*常见疾病*/
+
+.jbnav {
+	width: 100%;
+	font-family: '微软雅黑';
+}
+.jb_tit {
+	background: #e2e2e2 url(titi.png) left center no-repeat;
+	width: 100%;
+	height: 24px;
+}
+.jb_tit h2 {
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 25px;
+	color: #000;
+	font-weight: normal;
+}
+.jb_dao {
+	width: 100%;
+	height: auto;
+	margin: 5px 1px;
+}
+.jb_dao ul {
+	width: 100%;
+	height: auto;
+}
+.jb_dao li {
+	width: 33%;
+	line-height: 18px;
+	float: right;
+	display: inline;
+	font-size: 16px;
+}
+.jb_dao li a {
+	width: 95%;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	border-radius: 3px;
+	background: #9a5d26;
+	float: left;
+	display: inline;
+	margin: 2px auto;
+	color: #fff;
+}
+.jb_dao li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/*返回顶部*/
+.fhdb {
+	width: 100%;
+	background: #8c8c8c;
+	height: 37px;
+}
+.fan_img {
+	background: url(fhdb.png) center center no-repeat;
+	height: 37px;
+}
+/*固定底部*/
+.dingwei {
+	width: 100%;
+	height: 60px;
+}
+.ding {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	z-index: 9999;
+	bottom: 0px;
+}
+.gd {
+	background: url(dzxun_bg.png) left repeat-x;
+	height: 60px;
+	width: 100%;
+}
+.gd_img {
+	width: 320px;
+	height: 60px;
+	margin: 0 auto;
+}
+/*提醒*/
+.zjbddd {
+	width: 100%;
+	background: #dedede;
+	height: auto;
+	margin-bottom: 3px;
+}
+.zjbddd p {
+	color: #555555;
+	line-height: 24px;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+}
+/*修改*/
+.dhz {
+	clear: both;
+	width: 320px;
+	height: 37px;
+	margin: 5px auto;
+	padding-bottom: 5px;
+}
+.dhz1 {
+	width: 150px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin: 0 5px;
+	display: inline;
+	border-radius: 5px;
+	background: #9a5b25;
+}
+.dhz1 a {
+	color: #FFF;
+}
+.dhz1 a:hover {
+	text-decoration: none;
+}
+.dhz2 {
+	width: 145px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin: 0 0 0 5px;
+	display: inline;
+	border-radius: 5px;
+	background: #f28729;
+}
+.dhz2 a {
+	color: #FFF;
+}
+.dhz2 a:hover {
+	text-decoration: none;
+}
+.dhz3 {
+	width: 145px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin: 0 5px;
+	display: inline;
+	border-radius: 5px;
+	background: #7c370d;
+}
+.dhz3 a {
+	color: #FFF;
+}
+.dhz3 a:hover {
+	text-decoration: none;
+}
+.dhz4 {
+	width: 86px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin: 5px;
+	display: inline;
+	border-radius: 5px;
+	background: #9a5d26;
+}
+.dhz4 a {
+	color: #FFF;
+}
+.dhz4 a:hover {
+	text-decoration: none;
+}
+.dhz5 {
+	width: 86px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin: 5px;
+	display: inline;
+	border-radius: 5px;
+	background: #9a5d26;
+}
+.dhz5 a {
+	color: #FFF;
+}
+.dhz5 a:hover {
+	text-decoration: none;
+}
+.dhz6 {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin: 5px;
+	display: inline;
+	border-radius: 5px;
+	background: #9a5d26;
+}
+.dhz6 a {
+	color: #FFF;
+}
+.dhz6 a:hover {
+	text-decoration: none;
+}
+/*服务平台*/
+.ghpt {
+	width: 100%;
+	font-family: '微软雅黑';
+}
+.baomi_input {
+	width: 99%;
+	height: auto;
+}
+.baomi_input ul {
+	padding: 2px 5px;
+}
+.baomi_input li {
+	line-height: 32px;
+	width: 99%;
+}
+.xingming {
+	float: left;
+	font-size: 15px;
+	padding-right: 5px;
+}
+.baomi {
+	color: #F00;
+	font-family: '微软雅黑';
+	width: 100%;
+	line-height: 24px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.wenben1 {
+	background: url(wenben1.jpg) left center no-repeat;
+	width: 256px;
+	height: 32px;
+	border: none;
+	float: left;
+}
+.wenben2 {
+	background: url(wenben2.jpg) left center no-repeat;
+	width: 237px;
+	height: 124px;
+	border: none;
+	float: left;
+}
+.subbox {
+	width: 196px;
+	margin: 0px auto;
+}
+/*.m_sub{width:83px; height:35px; margin:0px 10px 10px 10px; background:#129431;border-radius:5px; line-height:35px; font-size:14px; font-family:"微软雅黑"; color:#fff; }*/
+
+.m_sub {
+	width: 86px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #9a5d26;
+	margin: 5px;
+	display: inline;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+input {
+	border: medium none;
+	margin: 0;
+	padding: 0;
+}
+.redian_tit {
+	background: #E2E2E2 url(titi.png) left center no-repeat;
+	width: 100%;
+	height: 24px;
+}
+.redian_tit h2 {
+	font-size: 15px;
+	line-height: 24px;
+	padding-left: 15px;
+	display: inline;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+}
+.redian_tit h2 span {
+	font-size: 12px;
+	float: right;
+	padding-right: 8px;
+	display: inline;
+	font-family: '宋体';
+	font-weight: normal;
+}
+.redian_tit h2 span a {
+	color: #FFF;
+}
+.redian_tit h2 span a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+.jb_tit2 {/* background:#E2E2E2 url(titi.png) left center no-repeat;*/
+	width: 100%;
+	height: 33px;
+}
+.jb_tit2 h2 {
+	font-size: 15px;
+	line-height: 33px;
+	padding-left: 5px;
+	color: #585858;
+	font-weight: normal;
+}
+.jb_tit2 h2 a {
+	font-size: 15px;
+	color: #585858;
+}
+/*权威疗法*/
+
+.lf {
+	width: 100%;
+	font-family: '微软雅黑';
+}
+.lf_con {
+	margin: 2px 0;
+}
+.img_lf {
+	margin: 6px auto;
+	text-align: center;
+}
+.lf_ti {
+}
+.lf_ti h2 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	width: 320px;
+	text-align: center;
+}
+.lf_ti p {
+	text-indent: 2em;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 5px 6px;
+}
+.lf_ti p a {
+	color: #F00;
+	text-decoration: none;
+}
+.lf_ti p a:hover {
+	color: #F00;
+	text-decoration: underline;
+}
+/*康复案例*/
+
+
+.jbcs {
+	width: 100%;
+	font-family: '微软雅黑';
+}
+.tabBox {
+	width: 100%;
+}
+.tab_nav {
+	width: 99%;
+}
+.fkzuo {
+	float: left;
+	width: 104px;
+	height: 67px;
+	margin: 9px 5px;
+	display: inline;
+}
+/*案例页面内fkzuo1*/
+.fkzuo1 {
+	float: left;
+	width: 102px;
+	height: 87px;
+	margin: 9px 5px;
+	display: inline;
+}
+.list_tt {
+	margin: 0 0 9px;
+	color: #000;
+	overflow: hidden;
+}
+.list_tt li {
+	background: url(ico.jpg) no-repeat scroll 2px 13px transparent;
+	border-bottom: 1px dotted #BBBBBB;
+	display: block;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 0 0 1px;
+	text-align: left;
+}
+.list_tt li a {
+	display: block;
+	height: 37px;
+	padding-left: 8px;
+	color: #000;
+}
+.list_tt li a:hover {
+	color: #F00;
+}
+.list_tt li a:after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 35%;
+	right: 8px;
+	width: 10px;
+	height: 10px;
+}
+.list_tt_h2 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	padding-top: 5px;
+}
+.list_tt p {
+	line-height: 22px;
+	font-size: 14px;
+}
+.list_tt p a {
+	color: #F00;
+}
+.fgx {
+	height: 10px;
+}
+/*权威专家*/
+.qwzj {
+	width: 100%;
+	font-family: '微软雅黑';
+}
+.text {
+	width: 65%;
+	height: auto;
+	display: inline;
+	margin-left: 5px;
+	text-align: left;
+	overflow: hidden;
+}
+.text h6 {
+	padding-top: 0px;
+}
+.text h6 a {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.text h6 a:hover {
+	text-decoration: none;
+}
+.con1 {
+	width: 98%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.zj01 {
+	float: left;
+	display: inline;
+	/*width: 75px;*/
+	height: 160px;
+	margin: 8px;
+	/*border: #CCC solid 1px;*/
+}
+.text p {
+	text-indent: 2em;
+	line-height: 22px;
+	font-size: 12px;
+	padding: 3px;
+}
+.zxximg {
+	margin: 2px 0 10px 15px;
+	text-align: center;
+	width: 309px;
+	height: 36px;
+}
+.text p a {
+	color: #F00;
+}
+.green {
+	color: #14b25c;
+	line-height: 21px;
+	font-size: 14px;
+}
+/*轮播*/
+
+.flexslider {
+	position: relative;
+	height: 220px;
+	overflow: hidden;
+}
+.slides {
+	position: relative;
+	z-index: 1;
+}
+.slides li {
+	height: 220px;
+}
+.flex-control-nav {
+	position: absolute;
+	bottom: 10px;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+.flex-control-nav li {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 5px;
+*display: inline;
+	zoom: 1;
+}
+.flex-control-nav a {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 40px;
+	overflow: hidden;
+	background: url(dot.png) right 0 no-repeat;
+	cursor: pointer;
+}
+.flex-control-nav .flex-active {
+	background-position: 0 0;
+}
+/*商务通弹窗*/
+.hidden {
+	display: none;
+}
+#tanchuang {
+    height: 84px;
+    left: 50%;
+    margin: -35px 0 0 -108px;
+    position: fixed !important;
+    top: 45%;
+    width: 230px;
+    z-index: 99999;
+}
+#tanchuang .t_nei h3 {
+    background: #936a46 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 8px;
+}
+#tanchuang .t_nei {
+    background: rgba(0, 0, 0, 0) url("http://wap.gsbyy.net/skin/wap1/swt/zhuanjia.gif") no-repeat scroll 0 0;
+    border: 1px solid #936a46;
+    height: 84px;
+    position: relative;
+    width: 230px;
+}
+#tanchuang .t_nei p {
+    color: #181818;
+    font-size: 14px;
+    margin-left: 65px;
+    margin-top: 50px;
+    padding: 3px 6px 0;
+    text-align: center;
+}
+#tanchuang .t_nei p span {
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 600;
+}
+#tanchuang .t_nei p a, #tanchuang .t_nei p a:hover {
+    color: #fff;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 65px;
+}
+#tanchuang .t_nei p .tc_a1 {
+}
+#tanchuang .t_nei p .tc_a2 {
+}
+#tc_c {
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 20px;
+}
