@@ -119,10 +119,12 @@
 .f2Box li.green a{color: #a31313;}
 /*f3Box*/
 .f3Box{padding:20px 10px 12px;}
-.f3Box h2{position: relative; width: 152px; margin: 0 auto; padding-bottom:6px; border-bottom: 1px solid #ccc; color: #373737; font-size: 18px; font-weight: normal; line-height: 22px; text-align: center;}
+.f3Box h2{position: relative; width: 170px; margin: 0 auto; padding-bottom:6px; border-bottom: 1px solid #ccc; color: #373737; font-size: 18px; font-weight: normal; line-height: 22px; text-align: center;}
 .f3Box h2 span{display: block; color: #720A0A; font-size: 14px; line-height: 18px;}
 .f3Box h2 i{position: absolute; left: 50%; bottom: -3px; margin-left: -18px; width: 36px; height: 5px; background-color:#720A0A; overflow: hidden;}
 .appFrom .page-booking .bajs-ajax-form{padding:15px 0 18px; border-bottom: 1px dashed #bbbbbb;}
+.appFrom .rule{width:70%;margin: 10px auto;}
+.appFrom .rule dd{text-indent:-20px}
 .appFrom .page-booking .bajs-ajax-form dl dt{color: #626262;font-size: 14px; line-height: 39px; text-align: right;}
 .appFrom .page-booking .bajs-ajax-form dl dt b{margin-right: 2px; color: #ff7a19;}
 .appFrom .page-booking .bajs-ajax-form dl dd{padding-left: 80px; padding-right: 0;}
