@@ -568,6 +568,14 @@
 	margin:0 5px;border-radius: 30px;}
 .bcc_banner_b span.active { background:#e30000;}
 
+
+
+bcc_banner_c {
+    position:relative;
+
+}
+
+
 .bcc_banner2 {width:100%; position:relative; overflow:hidden;}
 .bcc_banner2 li {float:left;}
 .bcc_banner2 li img{ width:100%;}
@@ -661,6 +669,7 @@
 .zj_img-list2 li img{ width:100%; height:2.76rem; border:1px solid #cdcdcd;}
 
 .zj_img-scroll3 { position: relative; height:auto;width:100%;}
+
 .zj_img-scroll3 span{font-size:40px;color:#fff;margin: 1.1rem 0.2rem;}
 .zj_img-scroll3 .prev3 {display: block;height:60px;position: absolute;
 	width:auto;left: 0; z-index:9;}
@@ -691,24 +700,38 @@
 
 
 /*医院荣誉*/
-.focus{ width:100%; height:auto;  margin:0 auto; position:relative; overflow:hidden;   }
+.focus{ width:320px; height:140px;  margin:0 auto; position:relative; overflow:hidden;   }
 .focus .hd{ width:100%; height:11px;  position:absolute; z-index:1; bottom:5px; text-align:center;  }
-.focus .hd ul{ display:inline-block; height:5px; padding:3px 5px;
+.focus .hd ul{ display:inline-block; height:5px; padding:3px 5px; background-color:rgba(255,255,255,0.7);
     -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:0; vertical-align:top;
 }
 .focus .hd ul li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#8C8C8C; margin:0 5px;  vertical-align:top; overflow:hidden;   }
 .focus .hd ul .on{ background:#FE6C9C;  }
 
 .focus .bd{ position:relative; z-index:0; }
-.focus .bd li img{ width:100%;  height:auto; background:url(loading.gif) center center no-repeat;  }
+.focus .bd li img{ width:100%;  height:140px; background:url(loading.gif) center center no-repeat;  }
 .focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */  }
 
-.focus .prev,.focus .next{ z-index:1; display:block; width:55px; height:55px; position:relative; margin:-250px 0 0 3%; float:left;  background:url(./arrow2.png) 0 0 no-repeat; filter:alpha(opacity=40);opacity:0.4  }
-.focus .next{  background-position:right 0; float:right; margin-right:4%  }
-.focus .prev:hover,.focus .next:hover{ filter:alpha(opacity=80);opacity:0.8 }
 
 /*医院荣誉*/
+.ind_aa_mid4 .slider {position:relative;}
+.ind_aa_mid4 .slider span{font-size:40px;color:#fff;margin: 15% 0.2rem 0;padding:10% 0 ; }
+.ind_aa_mid4 .slider .prev3 {display: block;height:60px;position: absolute;
+    width:auto;left: 0; z-index:9;}
+.ind_aa_mid4 .slider .prev3::before {content: '\276e';}
+.ind_aa_mid4 .slider .next3 {display: block;height:60px;position: absolute;
+    width:auto;right: 0; z-index:9;}
+.ind_aa_mid4 .slider .next3::before { content: '\276f';}
 
+
+.ind_aa_mid4 .slider2 {position:relative;}
+.ind_aa_mid4 .slider2 span{font-size:40px;color:#fff;margin: 15% 0.2rem 0;padding:10% 0 ; }
+.ind_aa_mid4 .slider2 .prev3 {display: block;height:60px;position: absolute;
+    width:auto;left: 0; z-index:9;}
+.ind_aa_mid4 .slider2 .prev3::before {content: '\276e';}
+.ind_aa_mid4 .slider2 .next3 {display: block;height:60px;position: absolute;
+    width:auto;right: 0; z-index:9;}
+.ind_aa_mid4 .slider2 .next3::before { content: '\276f';}
 
 
 

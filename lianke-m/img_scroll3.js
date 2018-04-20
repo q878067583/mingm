@@ -9,8 +9,7 @@ function DY_scroll(wraper,prev,next,img,speed,or)
 		var s = speed;
 		next.click(function()
 							{
-								img.animate({'margin-left':-w},function()
-																		{
+								img.animate({'margin-left':-w},function() {
 																			img.find('li').eq(0).appendTo(img);
 																			img.css({'margin-left':0});
 																			});
@@ -29,4 +28,4 @@ function DY_scroll(wraper,prev,next,img,speed,or)
 				function(){ad2 = setInterval(function() { next.click();},s*1000);});
 		}
 	}
-	DY_scroll('.zj_img-scroll3','.prev3','.next3','.zj_img-list3',3,true);// true为自动播放，不加此参数或false就默认不自动
+	DY_scroll('.zj_img-scroll3','.prev3','.next3','.zj_img-list3',1,true);// true为自动播放，不加此参数或false就默认不自动
