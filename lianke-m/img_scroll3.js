@@ -28,4 +28,4 @@ function DY_scroll(wraper,prev,next,img,speed,or)
 				function(){ad2 = setInterval(function() { next.click();},s*1000);});
 		}
 	}
-	DY_scroll('.zj_img-scroll3','.prev3','.next3','.zj_img-list3',1,true);// true为自动播放，不加此参数或false就默认不自动
+	DY_scroll('.zj_img-scroll3','.prev3','.next3','.zj_img-list3',4,true);// true为自动播放，不加此参数或false就默认不自动
