@@ -563,10 +563,10 @@
 .bcc_banner li {width:100%;height:100%;float:left;overflow:hidden;}
 .bcc_banner li img{ width:100%;}
 .bcc_banner_b { position:absolute; left:0;bottom:0;width:100%;height:15px;overflow:hidden;text-align:center;
-	margin-bottom:10px;}
-.bcc_banner_b span {display:inline-block; width:10px; height:10px; background:#615f59; cursor:pointer;
-	margin:0 5px;border-radius: 30px;}
-.bcc_banner_b span.active { background:#e30000;}
+	margin-bottom:0px;}
+.bcc_banner_b span {display:inline-block; width:10px; height:10px; background: #cac5b9; cursor:pointer;
+	margin:0 5px;border-radius: 30px; opacity: 0.6}
+.bcc_banner_b span.active { background:#e30000;opacity: 0.6}
 
 
 
