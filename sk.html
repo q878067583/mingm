@@ -8,12 +8,13 @@
 <meta name="description" content="">
 <link href="skfile/base.css" rel="stylesheet" type="text/css">
 <link href="skfile/css.css" rel="stylesheet" type="text/css">
- <script src="skfile/jquery.js"></script>
+    <link href="http://m.lksbyy.com/favicon.ico" rel="shortcut icon">
+ <script src="skfile/jquery1.42.min.js"></script>
 <!--<script type="text/javascript" charset="utf-8" src="http://kqi.zoossoft.com/js/CdCheck.aspx?id=10880110&amp;sid=1523600437797662399262&amp;d=1523601312809"></script></head>-->
 <body>
 <div id="top">
   <div class="mintop w930 clearfix" onclick="openZoosUrl();return false;">
-	<ul>
+	<ul style="display: block">
 	  <li><a href="javascript:;"><img src="skfile/lop1.jpg"><br>
 		服务热线</a></li>
 	  <li><a href="javascript:;"><img src="skfile/lop2.jpg"><br>
@@ -21,7 +22,12 @@
 	  <li><a href="javascript:;"><img src="skfile/lop3.jpg"><br>
 		联系我们</a></li>
 	</ul>
-	<img onclick="openZoosUrl();return false;" src="skfile/logoleft.png" width="287" class="fl"></div>
+      <!--<div>严谨行医，</div>-->
+      <!--<div>诚信做人</div>-->
+	<img onclick="openZoosUrl();return false;" src="skfile/logotop.png"   class="fl">
+	<img onclick="openZoosUrl();return false;" src="skfile/yjxy.png"   class="fl" style="margin-left:10%">
+
+  </div>
   <div class="nav">
 	<ul class="w930">
 	  <li class="hover"><a href="javascript:;">首页</a></li>
@@ -33,63 +39,57 @@
 	  <li class="last"><a href="javascript:;">联系我们</a></li>
 	</ul>
   </div>
-	<style>
-
-</style>
-      <section class="banner">
-          <div class="slider-wrap">
-              <div class="img-wrap">
-                  <div class="tempWrap">
-                      <ul>
-                          <li>
-                              <a href="javascript:;" target="_blank" style="background-image: url(skfile/banner1.jpg)"></a>
-                          </li>
-                          <li>
-                              <a href="javascript:;" target="_blank" style="background-image: url(skfile/banner2.jpg)"></a>
-                          </li>
-                          <li>
-                              <a href="javascript:;" target="_blank" style="background-image: url(skfile/banner3.jpg)"></a>
-                          </li>
-                          <li >
-                          <a href="javascript:;" target="_blank" style="background-image: url(./skfile/banner4.jpg)"></a>
-                          </li>
-
-                      </ul>
-                  </div>
-              </div>
-              <div class="hd">
-                  <ul>
-                      <li class=""></li>
-                      <li class="on"></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                  </ul>
-                  <a class="prev" href="javascript:void(0)"></a>
-                  <a class="next" href="javascript:void(0)"></a>
-              </div>
-          </div>
-      </section>
-
-      <script src="skfile/SuperSlide.js"></script>
 
 
-	<script>
-		$(".slider-wrap").slide({
-			mainCell: ".img-wrap ul",
-			titCell: ".hd li",
-			effect: "leftLoop",
-			autoPlay: true
-		});
-
-
-
-    </script>
 
 
 
 </div>
+<div class="fullSlide">
+
+    <div class="bd">
+        <ul>
+            <li style="background:url(skfile/banner1.jpg) center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+            <li style="background:url(skfile/banner2.jpg) center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+            <li style="background:url(skfile/banner3.jpg) center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+            <li style="background:url(skfile/banner4.jpg) center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+            <li style="background:url(skfile/banner5.jpg) center 0 no-repeat;"><a target="_blank" href="#"></a></li>
+        </ul>
+    </div>
+
+    <div class="hd"><ul>
+
+    </ul>
+        <div class="daohang" style="display: none">
+        <a href="javascript:;" class="prev" class="daohang"></a>
+        <a href="javascript:;" class="next" class="daohang"></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./skfile/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+	jQuery(".fullSlide").slide({
+        titCell:".hd ul",
+        mainCell:".bd ul",
+        effect:"fold",
+        autoPlay:true,
+        autoPage:true,
+        delayTime:700 });
+	$(document).ready(function(){
+		$(".fullSlide").mouseover(function(){
+			$(".daohang").fadeIn(500);
+		});
+		$(".fullSlide").mouseout(function(){
+			$(".daohang").fadeOut(500);
+		});
+
+
+    })
+</script>
+
+
 <div class="hr_a"></div>
-<div id="content" class="w1000 clearfix" onclick="openZoosUrl();return false;">
+<div id="content" class="w1000 clearfix" >
   <div class="w282 fl hmpic">
 	<ul>
 	  <li><a><img src="skfile/hmp1.jpg" width="282" height="68"></a></li>
@@ -101,14 +101,12 @@
 	  <dt>信息<br>
 		公告</dt>
 	  <dd>
-		<ul>
-		  <li><span class="fr">2018-2-28</span><a href="javascript:;">万安医院简介</a></li>
-		  <li><span class="fr">2018-3-26</span><a href="javascript:;">扫除男疾障碍，河南万安医院为您健康铺路！</a></li>
-		  <li><span class="fr">2018-4- 6&nbsp;</span><a href="javascript:;">就诊须知：为方便患者就诊，请网上预约挂号</a></li>
-		  <li><span class="fr">2018-2-14</span><a href="javascript:;">市总工会主席陈平在市总工会深圳联络处爱心人士陪同下新春赴万安老年公寓...</a></li>
-		  <li><span class="fr">2018-2-12</span><a href="javascript:;">农工党漯河市委领导一行来万安老年公寓开展新春慰问...</a></li>
-
-
+		<ul style="text-indent: 10px;">
+		  <li><span class="fr">2018-2-28 </span><a href="javascript:;">万安医院简介</a></li>
+		  <li><span class="fr">2018-3-26 </span><a href="javascript:;">扫除男疾障碍，河南万安医院为您健康铺路！</a></li>
+		  <li><span class="fr">2018-4-&nbsp;16 </span><a href="javascript:;">就诊须知：为方便患者就诊，请网上预约挂号</a></li>
+		  <li><span class="fr">2018-2- 14 </span><a href="javascript:;">市总工会主席陈平在市总工会深圳联络处爱心人士陪同下新春赴万安...</a></li>
+		  <li><span class="fr">2018-2- 12 </span><a href="javascript:;">农工党漯河市委领导一行来万安老年公寓开展新春慰问...</a></li>
 		</ul>
 	  </dd>
 	</dl>
@@ -176,7 +174,7 @@
             <li><img src="skfile/main7_03.jpg" alt=""></li>
         </ul>
     </div>
-    <div class="hr_a"></div>
+    <div class="hr_a .mrt"></div>
   <div class="newbt gray">
 	<h4>健康知识<span>Health knowledge</span></h4>
   </div>
@@ -318,7 +316,11 @@ input{border:none;}
 	z-index: 100;
 	text-align: center;
 	_position: absolute;
+    opacity: 0.8;
     /*_margin-top:expression(this.style.pixelHeight+document.documentElement.scrollTop);*/
+}
+#dibufdcbox:hover{
+    opacity: 1;
 }
 #dibufdcbox .fdcnr {
 	background: url(skfile/bottom.gif) no-repeat;
