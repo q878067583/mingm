@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+img{ border:none;}
+body{ font-family:"宋体"; font-size:12px; margin:0 auto; background-color:#fff;color:#605f5f;}
+.wrapper{ width:1000px; margin:0 auto; }
+/*公用*/
+h2{ font-size:18px; color:#55478d;}
+h3{font-size:16px;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+li{ list-style:none;}
+p{ line-height:22px;}
+a{ text-decoration:none;}
+a,a:link,a:hover{color:#605f5f;}
+/*去除背景*/
+.backg-none{ background:none !important;}
+/*标题样式*/
+fieldset {border:none; border-top:#7f7e7e dotted 1px; margin:20px 0;}
+legend{font-family:"黑体"; font-size:30px; color:#010101; text-align:center; background:#fff; padding:0 40px; margin:auto;}
+/*顶部区域*/
+.logo { margin: 12px 0; }
+.top_area { overflow: hidden; }
+.top_area .up { text-align: right; margin-top: 10px; position: relative; }
+.top_area .up a { margin: 0 9px; font-size: 14px; }
+.top_area .bottom { margin-top: 25px; }
+.top_area .version{ overflow:hidden; margin-left:30px;}
+.top_area .version a { margin: 0 3px; font-size: 14px;width:63px; height:31px;  background:url(../images/icon.png)  no-repeat; float:left; display:block; text-align:center; line-height:31px; }
+.search { margin: 0px 0 0 10px; width: 316px;*width:326px; overflow: hidden; }
+.search input[type=text], .search input[type=submit], .search input[type=button] { display: block; float: left; border: none; }
+.search input[type=text] { background: #fff; border: #b4b4b4 1px solid; width: 250px; height: 14px; vertical-align: middle; line-height: 14px; padding: 7px 5px; outline: none; }
+.search input[type=submit], .search input[type=button] { background: #104ea3; color: #fff; position: relative; width: 54px; height: 30px; border: none; vertical-align: middle; cursor: pointer; font-size: 12px; }
+/*菜单区域*/
+.menu_area { background-color: #ededed; height: 40px; line-height: 40px; position:relative; }
+.menu_area li{ float:left; width:100px;}
+.menu_area li>a { font-size: 14px; color: #3d3d3d; font-weight: bold; display:block; text-align:center;}
+.menu_area li.hover{background: #6aa2d1;}
+.menu_area li.hover a{color:#fff;}
+.menu_area li.current{ background-color: #104ea3; }
+.menu_area li.current a{ color: #fff; }
+/*二级菜单*/
+.menu_area .sub_menu { padding: 0 2%; text-align: center; background: #6aa2d1; position: absolute; left: 0; top: 40px; width: 98%;*width:96%; z-index: 1110; display:none; overflow:hidden; text-align: center;}
+.menu_area .sub_menu a { line-height: 30px;padding:0 10px; font-size:14px; font-weight:bold; color:#fff;background: none !important;   }
+.menu_area .sub_menu a:hover { text-decoration:underline; background: none !important; color:#fff; }
+/*搜索区域*/
+.search_area { background-color: #d5e3fd; overflow: hidden; height: 50px; }
+.search_title { color: #0080c7; font-size: 16px; margin-left: 40px; }
+.search_title img { vertical-align: -10%; margin-right: 5px; }
+.search_area p { float: left; line-height: 50px; margin-left: 40px; }
+.search_area label { margin-right: 5px; }
+.search_area select { border: 1px solid #ccc; font-size: 12px; font-weight: 400; line-height: 26px;padding: 5px; padding:2px 5px\9; height: 26px; vertical-align: middle; width: 110px; }
+.search_area input[type=submit], .search_area input[type=button] { background: #3550df; color: #fff; position: relative; width: 40px; height: 24px; border: none; vertical-align: middle; cursor: pointer; font-size: 12px; margin-left: 3px; }
+
+
+.tabHeader{ height:40px; line-height:40px; font-size:16px; font-family:"微软雅黑"; border-bottom:#6aa2d1 1px solid;}
+.tabHeader li{ float:left; color:#000; margin:0 32px 0 0; cursor:pointer;}
+.tabHeader li[class=active] { color:#6aa2d1; font-weight:bold;}
+/*328 130     344  328*/
+
+.enditDivContainer{ width:1000px; margin:auto; padding:30px 0 0 10px;}
+.enditDivContainer .btnContainer{ width:300px;}
+.enditDivContainer .btnContainer table { width:299px; border:#e7e7e7 1px solid; border-left:none; border-Top:none;}
+.enditDivContainer .btnContainer table tr td{ width:149px; border-left:#e7e7e7 1px solid; border-Top:#e7e7e7 1px solid; height:149px; background:#f3f8fc; text-align:center; vertical-align:middle;}
+.enditDivContainer .btnContainer table tr td span{ display:block; font-family:"黑体"; font-size:14px;}
+.enditDivContainer .btnContainer table tr td a{ display:block; height:149px; width:149px; display:table-cell; vertical-align:middle;}
+.enditDivContainer .btnContainer table tr td:hover { background:#6aa2d1;}
+.enditDivContainer .btnContainer table tr td:hover img{ display:none;}
+.enditDivContainer .btnContainer table tr td:hover span{display:block; color:#FFF; font-family:"黑体"; font-size:16px;}
+
+.enditDivContainer .btnContainer ul{}
+.enditDivContainer .btnContainer ul li{ width:150px; height:150px; float:left;}
+.enditDivContainer .btnContainer ul li a{ display:table-cell; vertical-align:middle; border:#e7e7e7 1px solid; border-top:none; width:148px; height:148px; text-align:center;}
+.enditDivContainer .btnContainer ul li a:hover { background:#6aa2d1;}
+.enditDivContainer .btnContainer ul li a span
+.enditDivContainer .btnContainer ul li a:hover img{ display:none;}
+.enditDivContainer .btnContainer ul li a:hover span{ display:block; color:#FFF; font-family:"黑体"; font-size:16px;}
+
+.enditDivContainer .btnContainer ul li:first-child a{ border:#e7e7e7 1px solid; }
+.enditDivContainer .btnContainer ul li:first-child + li a{ border:#e7e7e7 1px solid; }
+.enditDivContainer .btnContainer ul li:nth-child(odd) a{ border-right:none;}
+.enditDivContainer .nodeContainer{ width:688px;}
+.enditDivContainer .nodeContainer ul{}
+.enditDivContainer .nodeContainer ul li{ height:120px; margin:44px 0 0 40px; float:left; width:300px; overflow:hidden; position:relative;}
+.enditDivContainer .nodeContainer ul li:first-child{ margin-top:0;}
+.enditDivContainer .nodeContainer ul li:first-child + li{ margin-top:0;}
+.enditDivContainer .nodeContainer ul li a span{ font-size:14px; font-weight:bold; padding:0 10px; font-family:"微软雅黑"; color:#000; position:absolute; left:0; bottom:0; display:block; height:32px; line-height:32px; background:#aeaeae; width:328px;}
+.enditDivContainer .nodeContainer ul li a:hover span{ background:#015594; color:#FFF;}
+
+
+
+
