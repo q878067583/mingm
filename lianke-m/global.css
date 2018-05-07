@@ -39,6 +39,39 @@ select,input,textarea{outline:none;resize:none;-webkit-appearance:none;}
 }
 .nav-content h1 ,.nav-content h4,.nav-content img{text-align:center; margin:20px auto;text-indent: 0;color:red;}
 .nav-content p{color:#666666;margin:3px 3px;}
+.nav-content .articleTit{
+    text-align:center;
+    border-bottom:1px solid #eeeeee;
+}
+. container .nav-content .articleTit h4{
+    font-size:29px;
+}
+.nav-content .articleTit span{
+margin-left:20px;
+    font-size:12px;
+    line-height:24px;
+    vertical-align:top;
+    color:#000000;
+}
+
+.nav-content .articleCon{
+    padding:10px 10px 8px;
+}
+.nav-content .sj p{
+    text-indent: 0em ;
+}
+.nav-content .articleCon strong{
+    /*text-align: center;*/
+    font-seze:16px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav-content .articleCon p{
+    font-size:16px;
+    line-height:26px;
+    padding-bottom:10px;
+    color:#000000;
+}
 /*.nav-content */
 
 /*·µ»Ø¶¥²¿*/

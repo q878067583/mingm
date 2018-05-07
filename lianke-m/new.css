@@ -1,0 +1,31 @@
+
+.new ul li{
+    /*list-style:disc;*/
+    width: 100%;
+}
+.new ul li a{
+    font-size:14px;
+    ling-height:39px;
+    padding:0 20px 0 12px;
+}
+.new ul li p{
+    border-bottom:1px solid #e5e5e5;
+    height: 26px;
+
+    overflow:hidden;
+    margin: 0px;
+    position:relative;
+}
+
+.new ul li p i{
+    /*border:1px solid #000000;*/
+    border-radius:50%;
+    position:absolute;
+    background-color: #888888;
+    width: 4px;
+    height: 4px;
+    left: 0;
+    top: 50%;
+    margin-top:-2px;
+
+}

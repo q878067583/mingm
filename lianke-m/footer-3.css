@@ -23,7 +23,7 @@
 .footer-nav a:nth-child(1) i{width:20.5px;height:20px;background-position:0 -60px;}
 .footer-nav a:nth-child(2) i{width:23px;height:20px;background:url(zx_ico.gif)no-repeat;background-size: 100%;}
 .footer-nav a:nth-child(3) i{width:22px;height:20.5px;background-position:-50px -60px;}
-.footer-nav a:nth-child(4) i{width:18px;height:20px;background: url(call_ico.gif) no-repeat; background-size: 18px 20px;}
+.footer-nav a:nth-child(4) i{width:18px;height:20px;background: url(img/call_ico.gif) no-repeat; background-size: 18px 20px;}
 .footer-nav a:nth-child(5) i{width:15px;height:20.5px;background-position:-100px -60px;}
 .footer-nav a:nth-child(2).active i{background-position: -75px -60px;}
 
