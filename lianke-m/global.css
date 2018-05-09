@@ -43,9 +43,10 @@ select,input,textarea{outline:none;resize:none;-webkit-appearance:none;}
     text-align:center;
     border-bottom:1px solid #eeeeee;
 }
-. container .nav-content .articleTit h4{
+. container .nav-content .articleTit h4,. container .nav-content .articleTit h{
     font-size:29px;
 }
+
 .nav-content .articleTit span{
 margin-left:20px;
     font-size:12px;
