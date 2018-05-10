@@ -2,6 +2,7 @@
 .new ul li{
     /*list-style:disc;*/
     width: 100%;
+    overflow: hidden;
 }
 .new ul li a{
     font-size:14px;
@@ -14,6 +15,7 @@
 
     overflow:hidden;
     margin: 0px;
+    white-space:nowrap;
     position:relative;
 }
 
