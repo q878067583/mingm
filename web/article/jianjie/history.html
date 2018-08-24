@@ -20,17 +20,17 @@
     <link rel="stylesheet" href="../../../static/css/style.css" type="text/css">
 
     <!--<script type="text/javascript">-->
-    <!-- 在不同宽度下加载不同的css -->
-    <!-- Begin
-//		document.write('Your settings are ' + screen.width + ' x ' + screen.height + '');
-//		if (screen.width >= 1280) {
-//			document.write('<link rel="stylesheet" type="text/css" href="../../../static/css/style.css">');
-//		}
-//		if (screen.width < 1280) {
-//			document.write('<link rel="stylesheet" type="text/css" href="../../../static/css/style1200.css">');
-//		}
+		<!--//    &lt;!&ndash; 在不同宽度下加载不同的css &ndash;&gt;-->
+		<!--//    &lt;!&ndash; Begin-->
+		<!--//		document.write('Your settings are ' + screen.width + ' x ' + screen.height + '');-->
+		<!--if (screen.width >= 1280) {-->
+			<!--document.write('<link rel="stylesheet" type="text/css" href="../../../static/css/style.css">');-->
+		<!--}-->
+		<!--if (screen.width < 1280) {-->
+			<!--document.write('<link rel="stylesheet" type="text/css" href="../../../static/css/style1200.css">');-->
+		<!--}-->
 
-    // End -->
+		<!--//     End &ndash;&gt;-->
     <!--</script>-->
 
     <script type="text/javascript" src="../../../static/js/jquery.min-high.js"></script>
@@ -48,6 +48,7 @@
 			if (element.value == elementvalue) {
 				element.value = "";
 				element.style.color = "#555";
+
 			}
 		}
 		//离开输入框触发事件
@@ -62,128 +63,11 @@
 </HEAD>
 <BODY>
 <!--头部开始-->
-<div class="top">
-    <div class="top_box" style="height:90px;">
-        <div style="width:330px;float:left;"><a href="javascript:;">
-            <div class="logo left"></div>
-        </a></div>
-        <div style="width:330px;" class="right">
-            <table border="0">
-                <tr>
-                    <td>
-                        <div class="english">
-                            <a href="javascript:;" >首页</a>
-                            <a href="javascript:;" >联系我们</a>&nbsp;&nbsp;
-                            <a href="javascript:;" >地理位置</a>&nbsp;&nbsp;
-                            <!--<a href="javascript:;" data-href="javascript:;">English Version</a>&nbsp;&nbsp;-->
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div style="" class="search">
-                            <form name="searchart" action="/web/searcharticle.html" method="post">
-                                <input id="keywords" name="keywords" type="text" class="search_inps left"
-                                       onfocus="OnfocusFun(this,'请输入关键词')" onblur="OnBlurFun(this,'请输入关键词')"
-                                       value="请输入关键词"><input name="submitart" type="submit" class="search_btn right"
-                                                             value="搜&nbsp;索">
-                            </form>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
-<!--头部结束-->
-<!-- 导航开始 -->
-<div class="navBar">
-    <ul class="nav clearfix">
+<iframe runat="server" id="iframe-top" src="../../tongYong/top.html" width="100%" height="373px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes" style=" position:relative"></iframe>
 
-        <li id="mhome" class="m"><h3><a href="javascript:;" >首页</a></h3></li>
-        <li class="mshu"></li>
-        <li id="mjianjie" class="m"><h3><a href="javascript:;" >医院概况</a></h3>
-            <ul class="sub">
-                <li><a href="javascript:;" >医院简介</a></li>
-                <li><a href="javascript:;" >医院历史</a></li>
-                <li><a href="javascript:;" >地理位置</a></li>
-                <li><a href="javascript:;" >联系我们</a></li>
-            </ul>
-        </li>
-        <li class="mshu"></li>
-        <li id="myydt" class="m"><h3><a href="javascript:;" >医院动态</a></h3>
-            <div class="sub"><span><a href="javascript:;" >信息公告</a></span><span><a
-                    href="javascript:;" >医院新闻</a></span><span><a
-                    href="javascript:;" >学术活动</a></span><span><a
-                    href="javascript:;" >媒体聚焦</a></span><span><a
-                    href="javascript:;" >人才招聘</a></span><span><a
-                    href="javascript:;" >对外交流</a></span><span><a
-                    href="javascript:;" >新技术新业务</a></span><span><a
-                    href="javascript:;" >文化生活</a></span></div>
-        </li>
-        <li class="mshu"></li>
-        <li id="mylfw" class="m"><h3><a href="javascript:;" >医疗服务</a></h3>
-            <div class="sub"><span><a href="javascript:;" >养老服务</a></span><span><a
-                    href="javascript:;" >预约挂号</a></span><span><a
-                    href="javascript:;" >门诊指南</a></span><span><a
-                    href="javascript:;" >出诊安排</a></span><span><a
-                    href="javascript:;" >住院指南</a></span><span><a
-                    href="javascript:;" >远程医学</a></span><span><a
-                    href="javascript:;" >医保专区</a></span><span><a
-                    href="javascript:;" >健康管理</a></span><span><a
-                    href="javascript:;" >医疗信息报</a></span>
-            </div>
-        </li>
-        <li class="mshu"></li>
-        <li id="mksdh" class="m"><h3><a href="javascript:;" >科室导航</a></h3></li>
-        <li class="mshu"></li>
-        <li id="mmyhc" class="m"><h3><a href="javascript:;" >名医荟萃</a></h3>
-            <ul class="sub">
-                <li><a href="javascript:;" >院士介绍</a></li>
-                <li><a href="javascript:;" >医院专家</a></li>
-            </ul>
-        </li>
-        <li class="mshu"></li>
-        <li id="mhlfc" class="m"><h3><a href="javascript:;" >护理风采</a></h3>
-            <div class="sub"><span><a href="javascript:;" >护理资讯</a></span><span><a
-                    href="javascript:;" >护理概况</a></span><span><a
-                    href="javascript:;" >教育培训</a></span><span><a
-                    href="javascript:;" >学术交流</a></span><span><a
-                    href="javascript:;" >护患交流</a></span>
-            </div>
-        </li>
-        <li class="mshu"></li>
-        <li id="mztzl" class="m"><h3><a href="javascript:;" >专题专栏</a></h3>
-            <div class="sub"><span><a href="javascript:;" >百项优势</a></span><span><a
-                    href="javascript:;" >名医讲堂</a></span><span><a
-                    href="javascript:;" >百病妙诀</a></span><span><a
-                    href="javascript:;" >医改专题</a></span></div>
-        </li>
-        <li class="mshu"></li>
-        <li id="mylbz" class="m"><h3><a href="javascript:;" >医疗保障</a></h3>
-            <ul class="sub">
-                <li class="n"><a href="javascript:;" >信息保障</a></li>
-                <li class="n"><a href="javascript:;" >药品保障</a></li>
-                <li class="n"><a href="javascript:;" >工程保障</a></li>
-                <li class="n"><a href="javascript:;" >病案管理</a></li>
-                <li class="n"><a href="javascript:;" >招标采购</a>
-                    <ul class="sub2">
-                        <li><a href="javascript:;" >招标采购中心</a></li>
-                        <li><a href="javascript:;" >海南分院招标</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li class="mshu"></li>
-        <li id="mygfw" class="m"><h3><a href="javascript:;" >员工服务</a></h3>
-            <ul class="sub">
-                <li><a href="javascript:;" >医学数字图书馆</a></li>
-                <li><a href="javascript:;" >福利工会</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-<script type="text/javascript" src="../../../static/js/header.1.js"></script>    <!-- 焦点图开始 -->
+<!--头部结束-->
+
+<!--<script type="text/javascript" src="../../../static/js/header.1.js"></script>    &lt;!&ndash; 焦点图开始 &ndash;&gt;-->
 <LINK id="css" href="../../../static/css/lxwm.css" type="text/css" rel="stylesheet"/>
 <!--------------->
 
@@ -194,42 +78,34 @@
             <div class="left_nav_tt">医院概况</div>
             <div class="k10"></div>
             <ul>
-                <li><a href="web/article/jianjie/yyjj.html" class="left_nav_on">医院简介</a></li>
-                <li><a href="web/article/jianjie/yyls.html">医院历史</a></li>
-                <li><a href="web/article/jianjie/dlwz.html">地理位置</a></li>
-                <li><a href="web/article/jianjie/lxwm.html">联系我们</a></li>
+                <li><a href="index.html" >医院简介</a></li>
+                <li><a href="history.html" class="left_nav_on">医院历史</a></li>
+                <li><a href="where.html">地理位置</a></li>
+                <li><a href="lxwm.html">联系我们</a></li>
             </ul>
         </div>
         <div class="ny_right right">
-            <div class="ny_weizhi">您现在的位置是：<a href="index.php" title="首页">首页</a>&nbsp;&gt;&gt;&nbsp;<a
-                    href="web/article/jianjie/index.html" title="医院概况">医院概况</a>&nbsp;&gt;&gt;&nbsp;<a
-                    href="web/article/jianjie/yyjj.html" title="医院简介">医院简介</a></div>
-            <div class="ny_weizhi_tt">医院简介</div>
+            <div class="ny_weizhi">您现在的位置是：<a href="javascript:;" title="首页">首页</a>&nbsp;&gt;&gt;&nbsp;<a
+                    href="javascript:;" title="医院概况">医院概况</a>&nbsp;&gt;&gt;&nbsp;<a
+                    href="javascript:;" title="医院简介">医院历史</a></div>
+            <div class="ny_weizhi_tt">漯河万安医院历史简介</div>
             <div class="ny_bar"></div>
             <div class="ny_body">
-                <div class="s_nr"><p>
-                    中国人民解放军总医院（301医院）创建于1953年，是集医疗、保健、教学、科研于一体的大型现代化综合性医院。医院是中央重要保健基地，承担军委、总部等多个体系单位、官兵的医疗保健和各军区、军兵种转诊、后送的疑难病诊治任务。医院同时又是解放军医学院，以研究生教育为主，是全军唯一一所医院办学单位。</p>
+                <div class="s_nr">
                     <p>
-                        <img alt="" src="static/picture/jianjie1.png" style="width: 600px; height: 192px;"/></p>
-                    <p>
-                        医院拥有数字血管造影机、PET-MR、PET-CT、回旋加速器、计算机断层治疗系统、高压氧舱、机器人手术系统、磁导航介入系统、术中CT及术中磁共振等先进诊疗设备4万多台套。设置165个临床、医技科室，233个护理单元，拥有8个国家重点学科、1个国家重点实验室、20个省部级及全军重点实验室、33个全军医学专科中心和研究所，形成了以综合诊疗为特色的13项专业优势。同时是全军重症监护示范基地和中华护理学会的培训基地。设有国际医学中心和健康医学中心，提供高端预防保健服务。医院年门急诊量490余万人，收容
-                        19.8万人，手术近9万例。</p>
-                    <p>
-                        医院拥有6名中国科学院、中国工程院院士，1百多名技术三级以上专家，1千多名高职专业技术人员。其中，博士生导师184名，硕士生导师293名，180余人担任全国、全军各医学专业委员会正、副主任委员，医院共为军队培养了4000多名硕士、博士等高层次临床医学人才，为军地医院培养临床进修生1万多名，专修班学员数万人。</p>
-                    <p>
-                        <img alt="" src="static/picture/jianjie2.png" style="width: 531px; height: 212px;"/></p>
-                    <p>
-                        医院先后获得省部级以上科技成果奖励1300余项，其中，国家科技进步一等奖7项，二等奖20项，国家发明奖2项，军队科技进步一等奖21项。目前，医院主办中国科技核心期刊23种，被SCI收录期刊1种，承担&ldquo;973&rdquo;、&ldquo;863&rdquo;等各类课题800多项，在国内、国际公开发表的论文总数和国内论文被引用次数连续4年居全国医院之首，有21人次在中华医学会各专业委员会中担任主任委员和副主任委员，有71人次在全军学术委员会中担任主任委员和副主任委员。医院与100多个国内外知名院所、企业以及医疗、科研机构建立了交流合作关系，聘请200多名专家担任客座教授。<br/>
-                        <img alt="" src="static/picture/jianjie3.png" style="width: 562px; height: 256px;"/></p>
-                    <p>
-                        医院秉承&ldquo;允忠允诚、至精至爱&rdquo;的价值追求，涌现出&ldquo;模范医疗保健集体&rdquo;&mdash;南楼临床部、&ldquo;模范医学教授&rdquo;&mdash;姜泗长、&ldquo;模范医学专家&rdquo;&mdash;卢世璧等模范群体和先进个人，3个集体和10名个人分别荣立一等功，两人荣获&ldquo;南丁格尔奖&rdquo;。医院先后被评为&ldquo;国际模范爱婴医院&rdquo;、&ldquo;全国百佳医院&rdquo;、&ldquo;全国百姓放心医院&rdquo;、&ldquo;全国百姓放心示范医院&rdquo;、&ldquo;全军为部队服务先进医院&rdquo;，荣获全国卫生系统&ldquo;文化建设创新奖&rdquo;、国家卫生部授予&ldquo;医院改革创新奖&rdquo;。</p>
-                    <p>
-                        医院全面贯彻落实科学发展观，坚持&ldquo;好&rdquo;字当头、&ldquo;准&rdquo;字为先的优质发展战略，推行规范医疗、安全医疗、集成医疗、温馨医疗，努力打造全面建设现代化、科学管理标准化、全程导控信息化、机制运行规范化、发展途径低碳化、服务模式人性化的一流现代化研究型医院。<br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        &nbsp;</p>
+
+
+                        原漯河万安医院始建于 2000 年 8 月， 2015 年 3 月由金康护理院成功并购，更名为漯河金康护理院万安分院（漯河万安医院），位于漯河市源汇区长江路中段 13 号，现正在打造老年病二级专科医院。 20 11 年被漯河市慈善总会、漯河市民政局授予漯河市第四慈善医院。我院是漯河市及三区城镇职工、城乡居民医疗保险定点机构。潦河万安医院占地总面积 3700 平方米，总建筑面积 11000 平方米，目前设有床位 120 张，职工169人，其中专业技术人员132人，医院开设有内科、外科、妇科、中医科、康复科、医学检验科、医学影像科、超声诊断专业等科室，拥有飞利浦16排CT、普利德PLD5600全自动胃肠造影DR一体机、全数字彩色多普勒超声诊断仪、心电工作站、动态心电监护仪、动态血压监护仪、彩超、微波治疗仪、心电监护仪、全自动生化分析仪、美国LEEP刀、数码阴道镜、经颅多普勒血流分析仪、高频治疗仪、免疫三氧治疗仪、红外乳腺诊断仪、智能数码多功能治疗仪等先进医疗设备。&nbsp</p>
+                    <br>
+                        <p>我院以践行“孝慈仁善”企业文化为己任，以前沿科技为先导，以培养人才为基础，以提高疗效为根本、以崇尚尊老爱老为理念，加大老年病，心脑血管科、外科、妇科、骨科、断指再植、康复理疗、体检等专科建设力度，依托养老产业，发展大专科小综合的运营模式，是集医疗、康复保健、托老养老、居家养老、日间照料为一体的综合性医疗和养老机构。</p>
+                    <br>
+                    <p>漯河万安医院将以科技为先导、人才为基础、服务为根本、尊老爱老为理念。加大老年病、心脑血管病、康复理疗、妇科、体检等专科建设力度。依托养老产业，发展大专科小综合的运营模式。是国家二级康复及老年病专科医院，为漯河市及三区城镇职工、居民医疗保险和新型农村合作医疗定点医疗机构。
+                    </p>
                     <br/><br/>
+                    <iframe runat="server" src="../../tongYong/lianxifangshi.html" width="100%" height="400px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe>
+
+
+
                 </div>
             </div>
         </div>
@@ -237,76 +113,7 @@
     </div>
 </div>
 <!-- 底部开始 -->
-<LINK href="../../../static/css/popup_layer.css" type="text/css" rel="stylesheet"/>
-<script type="text/javascript" src="../../../static/js/popup_layer.js"></script>
-<script type="text/javascript" src="../../../static/js/footer.1.js"></script>
-<div class="foot">
-    <ul>
-        <li>
-            <dl>
-                <dt>医院概况</dt>
-                <dd><a href="javascript:;" >医院简介</a></dd>
-                <dd><a href="javascript:;" >医院历史</a></dd>
-                <dd><a href="javascript:;" >地理位置</a></dd>
-                <dd><a href="javascript:;" >联系我们</a></dd>
-            </dl>
-        </li>
-        <li>
-            <dl>
-                <dt>医疗服务</dt>
-                <dd><a href="javascript:;" >就医指南</a></dd>
-                <dd>
-                    <!--<div id="emample9" class="example">-->
-                    <div class="example">
-
-                        <div id="ele9" class="tigger"><a href="javascript:;" >科室导航</a></div>
-                        <div class="clr"></div>
-                    </div>
-                </dd>
-                <dd><a href="javascript:;" >名医荟萃</a></dd>
-                <dd><a href="javascript:;" >健康管理</a></dd>
-            </dl>
-        </li>
-
-        <li>
-            <dl>
-                <dt>员工服务</dt>
-                <dd><a href="javascript:;" >医学数字图书馆</a></dd>
-                <dd><a href="javascript:;" >福利工会</a></dd>
-            </dl>
-        </li>
-        <li>
-            <dl>
-                <dt>服务平台</dt>
-                <dd><a href="javascript:;" >全军细菌耐药监测网</a></dd>
-                <dd><a href="javascript:;" >解放军ADR信息平台</a></dd>
-                <dd><a href="javascript:;" >全军超声医学委员会</a></dd>
-            </dl>
-        </li>
-        <!--<li style="width:150px; margin:0 0 0 20px;">-->
-        <!--<dl>-->
-        <!--<dt>友情链接：</dt>-->
-        <!--<div class="clear"></div>-->
-        <!--<dd>-->
-        <!--<select style="font-family:微软雅黑;width:180px; line-height:40px;height:30px;font-size:12px;color:#fff;background-color:#015594;"-->
-        <!--onchange="window.open(this.value, '', '');">-->
-        <!--<option value="http://www.301hn.cn/" class="yqlj">海南分院</option>-->
-        <!--<option value="http://www.pla304.cc/" class="yqlj">第一附属（304）医院</option>-->
-        <!--<option value="http://www.shczyy.com/front/shouye.aspx" class="yqlj">第二军医大学长征医院</option>-->
-        <!--<option value="http://chhospital.com.cn/" class="yqlj">第二军医大学长海医院</option>-->
-        <!--<option value="http://www.xnyy.cn/" class="yqlj">第三军医大学西南医院</option>-->
-        <!--<option value="http://www.pumch.cn/" class="yqlj">北京协和医院</option>-->
-        <!--<option value="http://www.cd120.com/" class="yqlj">四川大学华西医院</option>-->
-        <!--</select>-->
-        <!--<dd>-->
-        <!--</dl>-->
-        <!--</li>-->
-    </ul>
-</div>
-<div class="copy foot bai">
-    <center>Copyright &copy; 2017-2019 Hospital. All Rights Reserved. 金康万安版权所有 豫ICP备17051527号-2 > 点击数: 11401168</center>
-</div>
-
+<iframe runat="server" src="../../tongYong/bottom.html" width="100%" height="305px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe>
 
 </BODY>
 </HTML>
